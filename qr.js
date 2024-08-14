@@ -61,11 +61,11 @@ router.get('/', async (req, res) => {
 
 ⎆Whatsapp Channel: https://whatsapp.com/channel/0029VadCyFZGufJ2YW4bG42x
 
-⎆WhatsApp Channel 2: https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e
+⎆WhatsApp Channel 2: https://whatsapp.com/channel/0029VacfoR64yltHmtm6Ky0T
 
 ⎆Whatsapp GC :https://chat.whatsapp.com/LYOPu85NAVv4ymxOxCxRQY
 
-⎆WhatsApp Number: +2349136616989
+⎆WhatsApp Number: +2348140825959
 
 ⎆GitHub: https://github.com/BADBOI-v1
 
