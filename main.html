@@ -12,74 +12,76 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-      background-color: black;
+      background-image: url("https://i.ibb.co/b6FNf6M/8cbf0b47-fd5f-4044-a133-56b6decadcfc.jpg");
+      background-size: cover;
+      background-position: center;
+      font-family: 'Roboto', 'Segoe UI', sans-serif;
+      color: #e5f5f1;
     }
 
     .btn {
-      --color: #e5f5f1;
-      --color2: rgb(0, 0, 0);
+      position: relative;
       width: 200px;
       padding: 0.8em 1.75em;
-      background-color: transparent;
-      border-radius: 6px;
-      border: .3px solid var(--color);
-      transition: .5s;
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
-      z-index: 1;
-      font-weight: 300;
+      background: transparent;
+      border: 2px solid #e5f5f1;
+      border-radius: 8px;
+      color: #e5f5f1;
       font-size: 17px;
-      font-family: 'Roboto', 'Segoe UI', sans-serif;
+      font-weight: 600;
       text-transform: uppercase;
-      color: var(--color);
+      text-align: center;
+      cursor: pointer;
+      overflow: hidden;
+      transition: 0.4s;
       margin-bottom: 24px;
+      z-index: 1;
     }
 
-    .btn::after, .btn::before {
+    .btn::before, .btn::after {
       content: '';
-      display: block;
-      height: 100%;
-      width: 100%;
-      transform: skew(90deg) translate(-50%, -50%);
       position: absolute;
-      inset: 50%;
-      left: 25%;
+      top: 50%;
+      left: 50%;
+      width: 300%;
+      height: 300%;
+      background: linear-gradient(45deg, rgba(0, 255, 255, 0.5), rgba(0, 255, 255, 0.3));
+      transform: translate(-50%, -50%) rotate(45deg);
       z-index: -1;
-      transition: .5s ease-out;
-      background-color: var(--color);
+      transition: 0.4s;
     }
 
     .btn::before {
-      top: -50%;
-      left: -25%;
-      transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+      width: 400%;
+      height: 400%;
+      background: linear-gradient(45deg, rgba(0, 255, 255, 0.3), rgba(0, 255, 255, 0.5));
+      opacity: 0.7;
     }
 
     .btn:hover::before {
-      transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
-    }
-
-    .btn:hover::after {
-      transform: skew(45deg) translate(-50%, -50%);
+      opacity: 1;
+      width: 300%;
+      height: 300%;
     }
 
     .btn:hover {
-      color: var(--color2);
+      background: rgba(0, 255, 255, 0.2);
+      color: #000;
     }
 
     .btn:active {
-      filter: brightness(.7);
-      transform: scale(.98);
+      transform: scale(0.98);
+      filter: brightness(0.7);
     }
   </style>
 </head>
 <body>
 
-  <button onclick="window.open(`/qr`)" class="btn">BAD-BOI QR</button>
-  <button onclick="window.open(`/pair`)" class="btn">BAD-BOI PAIR</button>
-  <button onclick="window.open(`https://github.com/BADBOI-v1/BADBOI-v2/fork`)" class="btn">REPO FORK</button>
-  <button onclick="window.open(`https://whatsapp.com/channel/0029VadCyFZGufJ2YW4bG42x`)" class="btn">CHANNEL</button> 
-  <button onclick="window.open(`https://github.com/BADBOI-v1`)" class="btn">GitHub</button>
+  <button onclick="window.open('/qr', '_self')" class="btn"> QR CODE</button>
+  <button onclick="window.open('/pair', '_self')" class="btn"> PAIR CODE </button>
+  <button onclick="window.open('https://github.com/HAROLDMTH/hans-xmd/fork', '_blank')" class="btn">REPO FORK</button>
+  <button onclick="window.open('https://whatsapp.com/channel/0029VaZDIdxDTkKB4JSWUk1O', '_blank')" class="btn">CHANNEL</button> 
+  <button onclick="window.open('https://github.com/HAROLDMTH', '_blank')" class="btn">GitHub</button>
+
 </body>
 </html>
