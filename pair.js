@@ -53,24 +53,17 @@ router.get('/', async (req, res) => {
                 await delay(5000);
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
-                await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: `🪀Support/Contact Developer
+                await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: ╭═ *HANS V2 CONNECTED* 🎉══⊷
+┃❃╭──────────────
+┃❃│ THANKS FOR CHOOSING *HANS XMD*
+┃❃│ *GITHUB* : https://github.com/haroldmth/hans-xmd
+┃❃│ *CHANNEL LINK* : https://www.whatsapp.com/channel/0029VaZDIdxDTkKB4JSWUk1O
+┃❃│ *SUPPORT GROUP* : https://chat.whatsapp.com/DIDPLFc7DMSE8OysoRPfdu
+┃❃│ *TELEGRAM CHANNEL* : https://t.me/HansTech0
+┃❃╰───────────────
+╰═════════════════⊷
 
-
-⎆Welcome to BAD-BOI DOMAIN
-
-⎆Whatsapp Channel: https://whatsapp.com/channel/0029VadCyFZGufJ2YW4bG42x
-
-⎆WhatsApp Channel 2: https://whatsapp.com/channel/0029VacfoR64yltHmtm6Ky0T
-
-⎆Whatsapp GC :https://chat.whatsapp.com/LYOPu85NAVv4ymxOxCxRQY
-
-⎆WhatsApp Number: +2348140825959
-
-⎆GitHub: https://github.com/BADBOI-v1
-
-★MAKE SURE YOU'VE JOINED ALL THE CHANNELS ABOVE FOR UPDATES.
-
-✨WE are the Hackers Family 🔥✅
+© 2024-2099 *HANS TECH*
 
 
 
@@ -83,9 +76,9 @@ router.get('/', async (req, res) => {
 ┌─❖
 │🪀 Hey
 └┬❖  
-┌┤✑  Thanks for using BAD-BOI Bot
+┌┤✑  Thanks for using Hans XMD
 │└────────────┈ ⳹        
-│©2023-2024 BAD-BOI V2
+│©2023-2024 HANS-XMD
 └─────────────────┈ ⳹\n\n ` }, {quoted: classic });
 
         await delay(100);
